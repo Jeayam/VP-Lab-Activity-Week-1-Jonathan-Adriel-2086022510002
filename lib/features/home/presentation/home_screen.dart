@@ -9,9 +9,10 @@ class HomeScreen extends StatelessWidget {
       
       appBar: AppBar( centerTitle: true, title: const Text('Warung Digital')),
 
-      body: const Center(
-        child: Column(
-        children: [ PriceTag(amount: 67000),PriceTag(amount: 670000),PriceTag(amount: 670000),],
+      body: const Align( alignment: Alignment.centerLeft,
+        child: Column( 
+        children: [ PriceTag(food : 'Nasi Goreng', amount: 20000),PriceTag(food : 'Mie Ayam', amount: 17000),
+        PriceTag(food : 'mie kering', amount: 670000),],
         )
       ),
       floatingActionButton: FloatingActionButton(
