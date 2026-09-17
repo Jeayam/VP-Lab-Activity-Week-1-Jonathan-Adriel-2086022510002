@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
 
       body: const Center(
         child: Column(
-        children: [ PriceTag(amount: 67000),PriceTag(amount: 670000),PriceTag(amount: 67000000),],
+        children: [ PriceTag(amount: 67000),PriceTag(amount: 670000),PriceTag(amount: 670000),],
         )
       ),
       floatingActionButton: FloatingActionButton(
@@ -19,4 +19,4 @@ class HomeScreen extends StatelessWidget {
         child: const Icon(Icons.add),
       ),
     );
-  }}
+  }}  
